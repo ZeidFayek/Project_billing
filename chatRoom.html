@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Billingo</title>
+    <link rel="shortcut icon" href="logo.gif" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="keywords"
+      content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive"
+    />
+    <meta name="author" content="GetTemplates.co" />
+
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:url" content="" />
+    <meta name="twitter:card" content="" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700"
+      rel="stylesheet"
+    />
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/animate.css" />
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="css/icomoon.css" />
+    <!-- Themify Icons-->
+    <link rel="stylesheet" href="css/themify-icons.css" />
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="css/bootstrap-datepicker.min.css" />
+
+    <link rel="manifest" href="manifest.json" />
+    <!-- Owl Carousel  -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+
+    <!-- Theme style  -->
+
+    <link rel="stylesheet" href="css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/chatRoom.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Shadows+Into+Light"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Permanent+Marker"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cabin+Sketch"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-2.1.1.min.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+    <!-- Modernizr JS -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="gtco-loader"></div>
+    <div id="page">
+      <div class="gototop js-top">
+        <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+      </div>
+
+      <!-- <div class="page-inner"> -->
+
+      <section id="gtco-header" class="gtco-cover gtco-cover-xs bg">
+        <div class="overlay bg"></div>
+        <nav class="nav bg" role="navigation">
+          <div class="container-fluid">
+            <div class="row"></div>
+          </div>
+        </nav>
+      </section>
+      <nav class="gtco-nav" role="navigation">
+        <div class="gtco-container">
+          <div class="row">
+            <div class="col-xs-8 text-right menu-1">
+              <ul>
+                <li>
+                  <a
+                    href="#"
+                    id="chat"
+                    onclick="document.getElementById('chat-form').style.display='block';
+                                                    document.getElementById('friends-form').style.display='none';
+                                                    document.getElementById('user-form').style.display='none';
+                                                    document.getElementById('bigo').style.display='none';"
+                    >Chat</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    id="friends"
+                    onclick="document.getElementById('chat-form').style.display='none';
+                                                    document.getElementById('friends-form').style.display='block';
+                                                    document.getElementById('user-form').style.display='none';
+                                                    document.getElementById('bigo').style.display='none';"
+                    >Friends</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    id="user"
+                    onclick="document.getElementById('chat-form').style.display='none';
+                                                    document.getElementById('friends-form').style.display='none';
+                                                    document.getElementById('user-form').style.display='block';
+                                                    document.getElementById('bigo').style.display='none';"
+                    >My profile</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row lg-hidden" id="bigo">
+            <a href="index.html">Billingo<i class="fa fa-weixin"></i></a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="allall col-md-12 col-sm-12 col-xs-offset-0">
+            <div class="row">
+              <div
+                id="friends-form"
+                class="col-md-3 col-sm-12 mt-text animate-box friend-part"
+                data-animate-effect=""
+              >
+                <div class="row col-xs-12">
+                  <div class="logo-box col-md-3 col-sm-3">
+                    <div id="gtco-logo" class="logo text-left">
+                      <a href="index.html"
+                        >Billingo<i class="fa fa-weixin"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="search-friend">
+                  <div class="s-part">
+                    <i class="fa fa-search"></i>
+                    <input
+                      onkeyup="friend_search1()"
+                      id="search_friend"
+                      autocomplete="off"
+                      class="search-bar form-control"
+                      placeholder="Search Messenger"
+                      spellcheck="false"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                  <div class="content">
+                    <div class="content-head">Contacts</div>
+                    <ul class="contact-result" id="friend"></ul>
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+
+              <div
+                id="chat-form"
+                class="col-sm-6 mt-text animate-box p2"
+                data-animate-effect=""
+              >
+                <div class="row x_chat">
+                  <div class="chatting-now col-md-6 col-sm-6">
+                    <div class="overlay bg"></div>
+                    <div class="row col-md-12 col-sm-12">
+                      <img
+                        class="col-md-6 col-xs-6"
+                        id="img_chatting"
+                        src="https://png.icons8.com/android/1600/user.png"
+                      />
+                      <input
+                        type="text"
+                        id="chat_name"
+                        value=""
+                        class="form-control col-md-6 col-xs-6"
+                        disabled
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="part-chat">
+                  <main class="mdl-layout__content mdl-color--grey-100">
+                    <div id="messages-card-container" class="">
+                      <!-- Messages container -->
+                      <div id="messages-card" class="">
+                        <div class="col-sm-12 my">
+                          <div class="start"><img src="images/logo.gif" /></div>
+                        </div>
+                        <div class="col-sm-12 mx">
+                          <div class="row">
+                            <button onclick="closec1();" class="close_chat">
+                              <p>&chi;</p>
+                            </button>
+                          </div>
+                          <div id="messages">
+                            <ul
+                              id="message_list"
+                              onscroll="loadmessages();"
+                            ></ul>
+                          </div>
+
+                          <div id="message-form" class="input-field" action="#">
+                            <div
+                              class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label"
+                            >
+                              <input
+                                id="Message_input"
+                                type="text"
+                                onfocus="loadmessages();"
+                                placeholder="Type your message.."
+                              />
+                            </div>
+                            <button
+                              id="Message_img"
+                              onclick="click_img()"
+                              type="submit"
+                              class="col-sm-12"
+                            >
+                              <img
+                                id="myimage"
+                                src="images/load_img.png"
+                                width="50"
+                                height="50"
+                              />
+                              <input type="file" id="myfile" name="Pic" />
+                            </button>
+                            <button
+                              id="Message_button"
+                              onclick="send_Message();"
+                              type="submit"
+                              class="col-sm-12"
+                            >
+                              <i class="fa fa-caret-right"></i>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </main>
+                </div>
+              </div>
+              <div
+                id="user-form"
+                class="part-profile col-md-3 col-sm-12 mt-text animate-box"
+                data-animate-effect=""
+              >
+                <div class="row">
+                  <div class="log-out col-md-3 col-sm-3 text-center">
+                    <div id="gtco-logout" class="logo text-center">
+                      <i class="far fa-arrow-alt-from-right"></i
+                      ><a href="#" id="Log_Out" onclick="signOut()"
+                        >Log Out<i class="fa fa-arrow-alt-from-left"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <table>
+                  <tr class="r1 row col-sm-12">
+                    <td class="col-sm-6 col-xs-4">
+                      <img
+                        class="img-thumbnail center-block"
+                        id="img_profile"
+                        src=""
+                        height="60"
+                        width="60"
+                      />
+                    </td>
+                    <td class="col-md-6 col-sm-12 col-xs-5">
+                      <div class="name">
+                        <input
+                          type="text"
+                          id="name_profile"
+                          value=""
+                          class="form-control"
+                          disabled
+                        />
+                      </div>
+                      <input type="email" value="" id="sts" disabled />
+                    </td>
+                    <td class="col-xs-3">
+                      <a href="profile.html" class="change-profile" href="">
+                        <i class="fa fa-cogs"></i
+                      ></a>
+                    </td>
+                  </tr>
+                </table>
+                <div class="row">
+                  <div class="col-sm-12 request">Friends Request</div>
+                </div>
+
+                <div class="row request-inner">
+                  <div class="col-sm-12">
+                    <ul id="requests"></ul>
+                  </div>
+                </div>
+                <div class="all-users">
+                  <div class="row">
+                    <div class="col-md-12 col-sm-12 request">
+                      All Users<i class="fa fa-users"></i>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-sm-12 s-part">
+                      <i class="fa fa-search" id="serch"></i>
+                      <input
+                        onkeyup="myFunction()"
+                        autocomplete="off"
+                        id="search_user"
+                        class="search-bar form-control"
+                        placeholder="Search users"
+                        spellcheck="false"
+                        type="text"
+                        value=""
+                      />
+                      <ul id="list_search"></ul>
+                    </div>
+
+                    <ul class="contact-result" id="list"></ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!------------------------------------------------------------------------>
+
+      <section class="container bk">
+        <div class="overlay"></div>
+        <div class="row hidden-lg hidden-md col-xs-12"></div>
+      </section>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyBLWbPgZv3tA45evbW6fpkL_ddZL6tmYp8",
+        authDomain: "bilingo-3a345.firebaseapp.com",
+        databaseURL: "https://bilingo-3a345.firebaseio.com",
+        projectId: "bilingo-3a345",
+        storageBucket: "bilingo-3a345.appspot.com",
+        messagingSenderId: "44755869001",
+      };
+      firebase.initializeApp(config);
+    </script>
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <!-- Carousel -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- countTo -->
+    <script src="js/jquery.countTo.js"></script>
+
+    <!-- Stellar Parallax -->
+    <script src="js/jquery.stellar.min.js"></script>
+
+    <!-- Magnific Popup -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/magnific-popup-options.js"></script>
+
+    <!-- Datepicker -->
+    <script src="js/bootstrap-datepicker.min.js"></script>
+
+    <!--
+    <script src="/__/firebase/4.1.3/firebase.js"></script>
+    <script src="/__/firebase/init.js"></script>
+-->
+    <!-- Main -->
+    <script></script>
+
+    <script src="js/main.js"></script>
+    <script src="js/chat.js"></script>
+    <script src="js/main1.js"></script>
+    <script src="js/cancle.js"></script>
+  </body>
+</html>

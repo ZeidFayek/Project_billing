@@ -1,0 +1,235 @@
+{
+  "chat" : {
+    "AmA6X4PZCbQcPCF5qmI04ZZ9MKk2" : {
+      "s7ODbLPzS8cYm4w7rtGs1ZsPGDv2" : {
+        "seen" : false,
+        "timestamp" : 1520877138268
+      }
+    },
+    "s7ODbLPzS8cYm4w7rtGs1ZsPGDv2" : {
+      "AmA6X4PZCbQcPCF5qmI04ZZ9MKk2" : {
+        "seen" : false,
+        "timestamp" : 1520877138268
+      },
+      "yhFVPFN4RhQ9YFfhA1LwuJO5j6Z2" : {
+        "seen" : false,
+        "timestamp" : 1520876646052
+      }
+    },
+    "yhFVPFN4RhQ9YFfhA1LwuJO5j6Z2" : {
+      "s7ODbLPzS8cYm4w7rtGs1ZsPGDv2" : {
+        "seen" : false,
+        "timestamp" : 1520876646052
+      }
+    }
+  },
+  "friend_req" : {
+    "AmA6X4PZCbQcPCF5qmI04ZZ9MKk2" : {
+      "request_type" : {
+        "sent" : {
+          "-L7QJtR_eIOfqjQmFmA_" : {
+            "to_id" : "s7ODbLPzS8cYm4w7rtGs1ZsPGDv2"
+          }
+        }
+      }
+    },
+    "DhTVj6SlYyMW9HHoYtHeqgf2I9C3" : {
+      "request_type" : {
+        "sent" : {
+          "-L827zb0HwexqQM6cWKf" : {
+            "to_id" : "yhFVPFN4RhQ9YFfhA1LwuJO5j6Z2"
+          }
+        }
+      }
+    },
+    "s7ODbLPzS8cYm4w7rtGs1ZsPGDv2" : {
+      "request_type" : {
+        "sent" : {
+          "-L7QVhkj9Ja1sFIN3HzU" : {
+            "to_id" : "s7ODbLPzS8cYm4w7rtGs1ZsPGDv2"
+          }
+        }
+      }
+    },
+    "yhFVPFN4RhQ9YFfhA1LwuJO5j6Z2" : {
+      "request_type" : {
+        "received" : {
+          "-L827zb1dMQQKKH0QO4F" : {
+            "from_id" : "DhTVj6SlYyMW9HHoYtHeqgf2I9C3"
+          }
+        },
+        "sent" : {
+          "-L7QDys5g_Z-qEVInXUN" : {
+            "to_id" : "s7ODbLPzS8cYm4w7rtGs1ZsPGDv2"
+          }
+        }
+      }
+    }
+  },
+  "friends" : {
+    "AmA6X4PZCbQcPCF5qmI04ZZ9MKk2" : {
+      "s7ODbLPzS8cYm4w7rtGs1ZsPGDv2" : {
+        "date" : "Mar 12, 2018 7:45:48 PM"
+      }
+    },
+    "s7ODbLPzS8cYm4w7rtGs1ZsPGDv2" : {
+      "AmA6X4PZCbQcPCF5qmI04ZZ9MKk2" : {
+        "date" : "Mar 12, 2018 7:45:48 PM"
+      },
+      "yhFVPFN4RhQ9YFfhA1LwuJO5j6Z2" : {
+        "date" : "Mar 12, 2018 7:41:11 PM"
+      }
+    },
+    "yhFVPFN4RhQ9YFfhA1LwuJO5j6Z2" : {
+      "s7ODbLPzS8cYm4w7rtGs1ZsPGDv2" : {
+        "date" : "Mar 12, 2018 7:41:11 PM"
+      }
+    }
+  },
+  "messages" : {
+    "AmA6X4PZCbQcPCF5qmI04ZZ9MKk2" : {
+      "s7ODbLPzS8cYm4w7rtGs1ZsPGDv2" : {
+        "-L7QKcNp1kOtIwyeSmB8" : {
+          "from" : "AmA6X4PZCbQcPCF5qmI04ZZ9MKk2",
+          "message" : "how are you ",
+          "seen" : false,
+          "time" : 1520877078331,
+          "type" : "text"
+        },
+        "-L7QKok2anHXeftVag_K" : {
+          "from" : "s7ODbLPzS8cYm4w7rtGs1ZsPGDv2",
+          "message" : "fine thanks ",
+          "seen" : false,
+          "time" : 1520877129078,
+          "type" : "text"
+        }
+      }
+    },
+    "s7ODbLPzS8cYm4w7rtGs1ZsPGDv2" : {
+      "AmA6X4PZCbQcPCF5qmI04ZZ9MKk2" : {
+        "-L7QKcNp1kOtIwyeSmB8" : {
+          "from" : "AmA6X4PZCbQcPCF5qmI04ZZ9MKk2",
+          "message" : "how are you ",
+          "seen" : false,
+          "time" : 1520877078331,
+          "type" : "text"
+        },
+        "-L7QKok2anHXeftVag_K" : {
+          "from" : "s7ODbLPzS8cYm4w7rtGs1ZsPGDv2",
+          "message" : "fine thanks ",
+          "seen" : false,
+          "time" : 1520877129078,
+          "type" : "text"
+        }
+      },
+      "yhFVPFN4RhQ9YFfhA1LwuJO5j6Z2" : {
+        "-L7QJ1h8CLk72gkCHCdp" : {
+          "from" : "s7ODbLPzS8cYm4w7rtGs1ZsPGDv2",
+          "message" : "كيف حالك ",
+          "seen" : false,
+          "time" : 1520876661851,
+          "type" : "text"
+        },
+        "-L7QJKTVsCgGfFHuFX8j" : {
+          "from" : "yhFVPFN4RhQ9YFfhA1LwuJO5j6Z2",
+          "message" : "Well",
+          "seen" : false,
+          "time" : 1520876738728,
+          "type" : "text"
+        },
+        "-L7QJazgAoLce6egGF7c" : {
+          "from" : "yhFVPFN4RhQ9YFfhA1LwuJO5j6Z2",
+          "message" : "What do you do now",
+          "seen" : false,
+          "time" : 1520876810495,
+          "type" : "text"
+        }
+      }
+    },
+    "yhFVPFN4RhQ9YFfhA1LwuJO5j6Z2" : {
+      "s7ODbLPzS8cYm4w7rtGs1ZsPGDv2" : {
+        "-L7QJ1h8CLk72gkCHCdp" : {
+          "from" : "s7ODbLPzS8cYm4w7rtGs1ZsPGDv2",
+          "message" : "كيف حالك ",
+          "seen" : false,
+          "time" : 1520876661851,
+          "type" : "text"
+        },
+        "-L7QJKTVsCgGfFHuFX8j" : {
+          "from" : "yhFVPFN4RhQ9YFfhA1LwuJO5j6Z2",
+          "message" : "Well",
+          "seen" : false,
+          "time" : 1520876738728,
+          "type" : "text"
+        },
+        "-L7QJazgAoLce6egGF7c" : {
+          "from" : "yhFVPFN4RhQ9YFfhA1LwuJO5j6Z2",
+          "message" : "What do you do now",
+          "seen" : false,
+          "time" : 1520876810495,
+          "type" : "text"
+        }
+      }
+    }
+  },
+  "notifications" : {
+    "s7ODbLPzS8cYm4w7rtGs1ZsPGDv2" : {
+      "-L7QDys4AtXtc1oVXkKv" : {
+        "from" : "yhFVPFN4RhQ9YFfhA1LwuJO5j6Z2",
+        "type" : "request"
+      },
+      "-L7QJtRZK_5bTjrgLZh8" : {
+        "from" : "AmA6X4PZCbQcPCF5qmI04ZZ9MKk2",
+        "type" : "request"
+      },
+      "-L7QVhkgVgitT0ToCNSi" : {
+        "from" : "s7ODbLPzS8cYm4w7rtGs1ZsPGDv2",
+        "type" : "request"
+      }
+    },
+    "yhFVPFN4RhQ9YFfhA1LwuJO5j6Z2" : {
+      "-L827zb-Dp9BnMAK6zQm" : {
+        "from" : "DhTVj6SlYyMW9HHoYtHeqgf2I9C3",
+        "type" : "request"
+      }
+    }
+  },
+  "users" : {
+    "AmA6X4PZCbQcPCF5qmI04ZZ9MKk2" : {
+      "device_token" : "cvJHJ9NeSkM:APA91bFSHzPqSaMhNWppelORMp6Un_b-Usr7uQJ5cMoCFg0nQYycXKvMUN7ItDwiBB9Qh2xk-jw9BviYz9mtV5fkHa_tZfQprkLb5q1_8eLJAxzlG0AiWe4ed7EIlXbxDrmZuaDmJ-8t",
+      "image" : "default",
+      "language" : "default",
+      "name" : "hend",
+      "online" : "true",
+      "status" : "Hi there i'm from the Bilingo Chat community.",
+      "thumb_image" : "default"
+    },
+    "DhTVj6SlYyMW9HHoYtHeqgf2I9C3" : {
+      "device_token" : "c0BcROmMdwg:APA91bFkeQXjbe9O1AH04suag-b-dO39TYFYMOQ3vp-BHr6bwZe03tiIcONbDKT-rC5v1m_4NFIb2Uvuijj-50Jpjq1a-OqoyumItizMtCva92cORlpY2RzBZ-E04W46CZVRnvS15lmy",
+      "image" : "default",
+      "language" : "en",
+      "name" : "rehamsalah",
+      "online" : 1521544958743,
+      "status" : "Hi there i'm from the Bilingo Chat community.",
+      "thumb_image" : "default"
+    },
+    "s7ODbLPzS8cYm4w7rtGs1ZsPGDv2" : {
+      "device_token" : "cvJHJ9NeSkM:APA91bFSHzPqSaMhNWppelORMp6Un_b-Usr7uQJ5cMoCFg0nQYycXKvMUN7ItDwiBB9Qh2xk-jw9BviYz9mtV5fkHa_tZfQprkLb5q1_8eLJAxzlG0AiWe4ed7EIlXbxDrmZuaDmJ-8t",
+      "image" : "default",
+      "language" : "en",
+      "name" : "sayed",
+      "online" : 1520928439167,
+      "status" : "Hi there i'm from the Bilingo Chat community.",
+      "thumb_image" : "default"
+    },
+    "yhFVPFN4RhQ9YFfhA1LwuJO5j6Z2" : {
+      "device_token" : "efirXF30uBU:APA91bFkDKJSDIYC28MHWdJrf9kH5QWyISaYAOhEYXE9qbDrK8CM_qSYlMsmO-paF61xPOpothcIIXvsR8s5cViCd9cSsN99Asow9MVekAsHYdfLF0HRTZciQg966aCXCBe4iWe5qk-y",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/bilingo-5ce90.appspot.com/o/profile_images%2FyhFVPFN4RhQ9YFfhA1LwuJO5j6Z2.jpg?alt=media&token=1df95fd8-abc2-4f8e-9382-e01e30d44462",
+      "language" : "ar",
+      "name" : "Ahmed",
+      "online" : 1521555339399,
+      "status" : "I am passionate about programming 👌",
+      "thumb_image" : "https://firebasestorage.googleapis.com/v0/b/bilingo-5ce90.appspot.com/o/profile_images%2Fthumbs%2FyhFVPFN4RhQ9YFfhA1LwuJO5j6Z2.jpg?alt=media&token=3dcd1a97-f42d-41f4-bc74-6913de98756f"
+    }
+  }
+}
